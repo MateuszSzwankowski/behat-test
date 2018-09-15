@@ -3,10 +3,10 @@ default:
         my_suite:
             contexts:
                 - FeatureContext
-                - Behat\MinkExtension\Context\MinkContext
     extensions:
         Behat\MinkExtension:
             base_url:  'http://dev-panel.serwis-grupowy-vgp.pl'
             sessions:
                 default:
-                    goutte: ~
+                    selenium2: 
+                        capabilities: { "browserName": "chrome", "browser": "chrome", 'chrome': ~}
