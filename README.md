@@ -15,3 +15,6 @@ proof of concept, nothing more
 To run this on Linux or MacOS you need to follow basically the same steps, just replace `\` with `/` and remove `.exe` from chromedrive file name.
 
 PS you also need to have google chrome installed. Firefox doesn't work very well with selenium driver.
+
+
+![awesome, huh?](Capture.PNG)
